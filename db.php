@@ -16,6 +16,8 @@ $conn=mysqli_connect(db_server,db_name,db_user,db_pwd);
 
 
 //crete table SCHOOLBILL
+//uncomment below lines and submit form on homepage, this will
+//create new DATABASE schoolbill for us to use
 // $query="SELECT * FROM schoolbill";
 // $res=mysqli_query($conn,$query);
 // if($res){
@@ -41,19 +43,6 @@ $conn=mysqli_connect(db_server,db_name,db_user,db_pwd);
 //     }
 // }
 
-
-
-// $query="CREATE TABLE student (
-//     rollno INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-//     name VARCHAR(30) NOT NULL,
-//     class VARCHAR(50))";
-//     if($conn->query($query)){
-//         echo" Table created";
-//     }else{
-//         echo " table not created";
-//     }
-
-//     $conn->close();
 
 
 
