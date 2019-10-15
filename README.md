@@ -1,8 +1,8 @@
 # School_receipt_printing_project
 Simple Php based school receipt printing project
 
-assuming mysql and php is up
-go to db.php and decomment the lines at bottom, resubmit the form on index.php page and schoolbill database will be created.
+assuming mysql and php is up, replace the values in the db.php files of db, username ,password
+then decomment the lines at bottom to create the DB, resubmit the form on index.php page and schoolbill database will be created. comment lines after DB is created Succesfully
 
 fill the form on index.php and data will be saved to the DB and we can print receipt.
 
